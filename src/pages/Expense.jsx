@@ -140,20 +140,20 @@ function Expense() {
 						<div className="flex flex-col justify-center items-center min-w-full text-black dark:text-white">
 							<span className="text-sm">Your Balance</span>
 							<span className="text-2xl font-bold">
-								Rp. {total.toLocaleString("id-ID")}
+								₹. {total.toLocaleString("id-ID")}
 							</span>
 							<div className="flex justify-between min-w-full px-3 pt-4">
 								<div className="income bg-green-400 px-2 py-1 rounded">
 									<span className="text-sm">Income: </span>
 									<span className="text-sm font-bold">
-										Rp.{" "}
+										₹.{" "}
 										{totalIncome.toLocaleString("id-ID")}
 									</span>
 								</div>
 								<div className="expense bg-red-400 px-2 py-1 rounded">
 									<span className="text-sm">Expense: </span>
 									<span className="text-sm font-bold">
-										Rp.{" "}
+										₹.{" "}
 										{totalExpense.toLocaleString("id-ID")}
 									</span>
 								</div>
