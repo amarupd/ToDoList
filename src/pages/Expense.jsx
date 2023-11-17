@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "react";
 import { nanoid } from "nanoid";
+import React, { useEffect, useState } from "react";
 import Modal from "../components/Modal";
 import useModal from "../components/UseModal";
 function Expense() {
@@ -183,7 +183,7 @@ function Expense() {
 					</div>
 					{expenses.length === 0 ? (
 						<p className="text-black dark:text-white">
-							Tidak ada data
+							ADD DATA
 						</p>
 					) : (
 						<ul className="overlow-container min-w-full pl-4 pr-0 md:pl-10 overflow-y-scroll max-h-[40rem] md:max-h-[45rem]">

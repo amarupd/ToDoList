@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "../App.css";
 
 function Todo() {
@@ -143,7 +143,7 @@ function Todo() {
 					</div>
 					{todos.length === 0 ? (
 						<p className="text-black dark:text-white">
-							Tidak ada data
+							ADD DATA
 						</p>
 					) : (
 						// Inside your Todo component's return statement, update the rendering of the todo list

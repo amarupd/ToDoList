@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "react";
 import { nanoid } from "nanoid";
+import React, { useEffect, useState } from "react";
 import "../App.css";
 import "../css/Navbar.css";
 
@@ -93,7 +93,7 @@ function Note() {
 					</div>
 					{notes.length === 0 ? (
 						<p className="text-black dark:text-white">
-							Tidak ada data
+							ADD DATA
 						</p>
 					) : (
 						<div className="overlow-container md:px-10 px-3 flex justify-start flex-col items-center min-w-full overflow-y-scroll max-h-[40rem] md:max-h-[45rem]">
