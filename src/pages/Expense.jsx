@@ -215,7 +215,7 @@ function Expense() {
 												{expense.category === "income"
 													? "+"
 													: "-"}{" "}
-												Rp.{" "}
+												₹.{" "}
 												{parseInt(
 													expense.amount
 												).toLocaleString("id-ID")}
