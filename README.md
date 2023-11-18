@@ -1,5 +1,5 @@
 
-# React Tools
+# ToDo List
 
 ![visitor badge](https://visitor-badge.laobi.icu/badge?page_id=aleph-discord-bot.visitor-badge)
 
@@ -18,12 +18,12 @@ React Tools is a project that provides a collection of tools and components buil
 1. Clone the repository:
 
    ```git
-   https://github.com/Alvalens/react-tools.git
+   git clone https://github.com/amarupd/ToDoList
    ```
 2. Navigate to the project directory:
 
    ```shell
-   cd react-tools
+   cd ToDoList
    ```
 3. Install dependencies:
 
@@ -66,6 +66,3 @@ You can access these menu on home page on the navbar, feauture section and foote
 
 Contributions are welcome! If you find any issues or have suggestions, feel free to open an issue or submit a pull request.
 
-## License
-
-This project is licensed under the GPL-3.0 License seethe [LICENSE](LICENSE) file for details.
